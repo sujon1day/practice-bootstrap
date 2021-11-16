@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Practice</title>
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello World</h1>
+      <hr />
+
+      <h1>Bootstrap Button</h1>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-white">White</button>
+      <button class="btn btn-dark">Dark</button>
+      <button class="btn btn-light">Light</button>
+      <hr />
+
+      <h1>Bootstrap Color</h1>
+      <h2 class="text-primary">Text color Primary</h2>
+      <h3 class="text-success">Text color Success</h3>
+      <p class="text-danger">Text color Danger</p>
+      <p class="text-dark">Text color Dard</p>
+      <p class="text-info">Text color Info</p>
+      <hr />
+
+      <h1>Bootstrap Background</h1>
+      <div class="bg-primary text-light w-50 p-3 mx-auto">
+        <h3>This is Heading Three</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis,
+          adipisci?
+        </p>
+      </div>
+      <div class="bg-danger text-light w-75 p-3 mt-3 text-center">
+        <h3>This is Heading Three</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis,
+          adipisci?
+        </p>
+      </div>
+      <hr />
+
+      <h1>Bootstrap Images Style</h1>
+      <div class="overflow-hidden">
+        <div>
+          <img
+            class="
+              img-fluid
+              rounded
+              w-25
+              mx-auto
+              rounded-circle
+              img-thumbnail
+              float-start
+            "
+            src="images/sujon.jpg"
+            alt="sujon"
+          />
+          <img
+            class="w-25 img-thumbnail float-end"
+            src="images/sujon2.jpg"
+            alt="sujon"
+          />
+        </div>
+      </div>
+      <hr />
+
+      <h1>Card</h1>
+      <div class="card mx-auto my-5" style="width: 18rem">
+        <img
+          src="./images/sujon.jpg"
+          class="card-img-top w-50 mx-auto rounded-circle mt-3"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">Sujon Pramanik</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-success">Click Here</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
